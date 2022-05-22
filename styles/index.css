@@ -1,0 +1,30 @@
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    background-color: #f4f4f4;
+    /* height: 100vh; */
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+/* TODO: Move this to separate file, as it applies to only home page */
+.carousel-item svg {
+    height: calc(100vh - 48px);
+}
+
+.main-card {
+    padding: 2rem 4rem;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

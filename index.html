@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaBioGenX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"
+        defer></script>
+    <script src="./scripts/particles.min.js" defer></script>
+    <script src="./scripts/app.js" defer></script>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation-bar">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">MetaBioGenX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./resources.html" class="nav-link">Resources</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <!-- <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"
+                class=""></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="600"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#f5f5f5"></rect><text x="50%" y="50%" fill="#aaa"
+                        dy=".3em">First slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#bbb"
+                        dy=".3em">Second slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
+                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
+                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <title>Placeholder</title>
+                    <rect width="100%" height="100%" fill="#e5e5e5"></rect><text x="50%" y="50%" fill="#999"
+                        dy=".3em">Third slide</text>
+                </svg>
+
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <main class="my-3">
+        <div class="container">
+            <section>
+                <h2>Beyond OMICS</h2>
+                <p>
+                    Rapid progress is underpinning technologies such as next-generation sequencing (NGS) and mass
+                    spectrometry coupled with gas and liquid chromatography (GC/LC-MS) technologies has enabled
+                    researchers
+                    to perform multi-omics systems biology research in all facets of biology. Furthermore, in the "Big
+                    Data
+                    era" diverse sets of information from various biological and environmental research produce a huge
+                    amount of high throughput data.
+                </p>
+                <p>
+                    Integrating the information generated from the cross-platform is instrumental in learning and
+                    deep-diving to understand factors affecting genes, proteins, and metabolism that influence the
+                    phenotype
+                    of a living system. In addition, the integrative approach will provide powerful tools and motivation
+                    to
+                    the scientists to systematically connect genotype to phenotype and create a more holistic
+                    understanding
+                    of cells, organisms, and communities, relating to their growth, adaptation, development, and disease
+                    progression.
+                </p>
+            </section>
+
+            <section>
+                <h2>What we do?</h2>
+                <p>
+                    Motivated with a famous saying, “Information is the oil of the 21st century, and analytics is the
+                    combustion engine.” We are a team of young and professional scientists aimed to tackle the
+                    challenges of biology and biotechnology by integrating a multi-omics approach.
+                </p>
+                <p>
+                    At MetaBioGenX, we provide analyses of multi-omics, cross-platform (genomics, transcriptomics,
+                    epigenomics, proteomics, metabolomics, and fluxomics) datasets. Our workflows allow researchers
+                    working in synthetic biology, biotechnology and health sciences, to quickly and rationally, design
+                    the experiments and help them analyze the data and finally biological interpretation of this data to
+                    produce results that inform about the outcomes and next steps.
+                </p>
+            </section>
+
+            <section>
+                <h2>Process and Advantages</h2>
+                <ul>
+                    <li>Custom analysis: targeted vs un-targeted</li>
+                    <li>Holistic view of cell</li>
+                </ul>
+            </section>
+
+            <section>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae voluptatum quo nostrum
+                    odio non suscipit rem delectus, eius asperiores ea, quaerat et. Natus veniam quos, animi officia
+                    soluta consequuntur ad, totam est expedita quo, dolore esse eum. Distinctio, animi quisquam?
+                    Mollitia nihil sequi dicta commodi cumque, provident quasi similique reprehenderit assumenda
+                    recusandae. Atque earum pariatur illum animi officiis nam at tempora dolore dolor ea repellendus
+                    labore, quidem adipisci possimus harum cupiditate molestias suscipit odit numquam. Suscipit,
+                    quisquam! Labore minus error incidunt repellendus at consectetur qui cum rerum. Architecto
+                    consectetur dolores necessitatibus eveniet fugit maxime quas odio voluptas quibusdam! Nulla.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet iusto ad unde adipisci eligendi
+                    fugiat, aperiam facere ut vero qui dicta assumenda ipsum, dolores illo modi amet quis ea corporis
+                    non, recusandae distinctio sit sunt? Id eos ullam adipisci aliquid facilis asperiores. Eligendi,
+                    minima velit adipisci voluptas debitis sequi tempore deserunt quia perferendis officia dolorem
+                    voluptates qui cum illum delectus corporis molestias eaque tenetur iusto aperiam quaerat corrupti
+                    dicta rem cumque. Eligendi vitae quaerat, atque quam ipsa accusamus! Quisquam sapiente labore
+                    inventore velit temporibus. Assumenda sit quam, vitae, laudantium, asperiores expedita at quibusdam
+                    minus quisquam temporibus amet ut dolorem doloribus.
+                </p>
+            </section>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="d-flex bg-dark text-light justify-content-center py-3">
+            Copyright &copy; MetaBioGenX Inc.
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
