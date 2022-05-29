@@ -7,15 +7,14 @@
     z-index: -1;
 
     background-color: #f4f4f4;
-    /* height: 100vh; */
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
 
-/* TODO: Move this to separate file, as it applies to only home page */
-.carousel-item svg {
-    height: calc(100vh - 48px);
+footer,
+.navigation-bar {
+    background-color: #001d3d;
 }
 
 .main-card {
@@ -27,4 +26,75 @@
     backdrop-filter: blur(0px);
     -webkit-backdrop-filter: blur(0px);
     border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* TODO: Move this to separate file, as it applies to only home page */
+
+/* Home page */
+.carousel-item svg {
+    height: calc(100vh - 48px);
+}
+
+.home-sections {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.image-container-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Services page */
+
+.services-card-container {
+    margin-bottom: 2rem;
+}
+
+.services-card-container .card {
+    height: 100%;
+}
+
+/* About Page */
+.profile-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 400px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+}
+
+.profile-card .profile-card-img-container {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card .profile-card-img-container img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #001d3d;
+}
+
+.profile-card .profile-card-content-container {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile-card .profile-card-content-container div:first-child {
+    font-weight: 800;
+    padding-bottom: 0.5rem;
+}
+
+.profile-card .profile-card-links-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
